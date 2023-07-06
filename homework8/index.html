@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="block1">
+            <span class="text_blue">інвестиції</span>
+            <h1>зробити
+                — інвестиції у програму</h1>
+            <span class="text_descr">виберіть спосіб оплати</span>
+        </div>
+        <div class="block2">
+            <div class="radio1">
+            <form action="payment_method">
+                <label><input name="Банківська карта"  type="radio">Банківська картa</label>
+                <label><input name="Банківська карта"  type="radio">PayPal</label>
+                <label><input name="Банківська карта"  type="radio">Банківська платіжна квитанція</label>
+            </form>
+            </div>
+            <span class="text_descr">банківська карта</span>
+
+            <form action="amount" class="amount_pos">
+                <label class="amount_blue"><input class="amount" type="radio">50000</label>
+                <label class="amount"><input class="amount" type="radio">30000</label>
+                <label class="amount"><input class="amount" type="radio">10000</label>
+                <label class="amount"><input class="amount" type="radio">1000</label>
+                <label class="amount_long" class="amount"><input type="text" placeholder="Інша сума"></label>
+            </form>
+
+            <div class="regularity">
+            <form action="regularity">
+                <label><input name="when"  type="radio">Щомісячно</label>
+                <label><input name="when"  type="radio">Одноразово</label>
+            </form>
+            </div>
+            <div class="name_email_block">
+            <form action="name_input">
+                <span class="text_descr">ім’я</span>
+                <label><input type="text" placeholder="Напишіть ваше ім’я"></label>
+            </form>
+            <div><img src="./Rectangle74.png" alt=""></div>
+            <form action="email_input">
+                <span class="text_descr">Email</span>
+                <label><input type="email" placeholder="Напишіть вашу електронну адресу"></label>
+            </form>
+            <div><img src="./Rectangle74.png" alt=""></div>
+        </div>
+
+        <form action="checkbox">
+            <div class="check_box"><label class="container2"><input type="checkbox"><div class="checkmark"><img class="tick" src="./Vector39.png"></div><span class="accept_text">Я приймаю</span><span class="hypertext">Договір оферти</span></label></div>
+            <div class="check_box"><label class="container2"><input type="checkbox"><div class="checkmark"></div><span class="accept_text">Я приймаю</span><span class="hypertext">Угоду про використання персональних даних</span></label></div>
+        </form>
+
+            <div class="button"><span class="button_text">відправити</span></div>
+
+        </div>
+    </div>
+    </body>
+</html>
+
+
