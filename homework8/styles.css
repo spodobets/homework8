@@ -108,9 +108,7 @@ letter-spacing: -0.48px;
 text-transform: uppercase;
 }
 
-input[type="radio"].amount {
-    display: none;
-}
+
 input:checked{
     background-color: #0536FC;
  
@@ -140,6 +138,23 @@ label.amount_long {
 }
 
 label.amount_blue {
+    border: 1px solid #C4C4C4;
+    padding: 13px 51px;
+    background-color: #0536FC;
+    color: white;
+}
+
+.amount_pos input[type="radio"] {
+    display: none;
+}
+
+.amount {
+    border: 1px solid #C4C4C4;
+    padding: 13px 51px;
+    margin: 0px;
+}
+
+input:checked + .amount {
     border: 1px solid #C4C4C4;
     padding: 13px 51px;
     background-color: #0536FC;

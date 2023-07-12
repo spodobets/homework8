@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>form_page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
@@ -14,8 +15,9 @@
             <span class="text_descr">виберіть спосіб оплати</span>
         </div>
         <div class="block2">
-            <div class="radio1">
+            
             <form action="payment_form">
+                <div class="radio1">
                 <label><input name="Банківська карта"  type="radio">Банківська картa</label>
                 <label><input name="Банківська карта"  type="radio">PayPal</label>
                 <label><input name="Банківська карта"  type="radio">Банківська платіжна квитанція</label>
@@ -25,12 +27,12 @@
 
             <div class="amount_pos">
            
-                <label class="amount"><input class="amount" type="radio">50000</label>
-                <label class="amount"><input class="amount" type="radio">30000</label>
-                <label class="amount"><input class="amount" type="radio">10000</label>
-                <label class="amount"><input class="amount" type="radio">1000</label>
+                <input name="price" id="one" type="radio"><label class="amount" for="one">50000</label>
+                <input name="price" id="two" type="radio"><label class="amount" for="two">30000</label>
+                <input name="price" id="three" type="radio"><label class="amount" for="three">10000</label>
+                <input name="price" id="four" type="radio"><label class="amount" for="four">1000</label>
               
-                <label class="amount_long" class="amount"><input type="text" placeholder="Інша сума"></label>
+                <label class="amount_long"><input name="price" type="text" placeholder="Інша сума"></label>
      
             </div>
 
